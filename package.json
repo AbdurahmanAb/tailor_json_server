@@ -1,0 +1,14 @@
+{
+  "name": "tailor-app-mock-server",
+  "version": "1.0.0",
+  "description": "Mock server for Tailor App",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.10"
+  }
+}

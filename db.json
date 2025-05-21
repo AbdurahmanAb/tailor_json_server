@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "tailor1@example.com",
+      "name": "Fashion Tailors",
+      "photoUrl": null,
+      "isEmailVerified": true,
+      "phone": "+1234567890",
+      "location": "123 Fashion Street",
+      "service": "Suits",
+      "workType": "Men",
+      "openingTime": "9:00 AM",
+      "closingTime": "6:00 PM",
+      "userType": "tailor",
+      "createdAt": "2024-03-20T10:00:00Z",
+      "updatedAt": "2024-03-20T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "email": "tailor2@example.com",
+      "name": "Bridal Boutique",
+      "photoUrl": null,
+      "isEmailVerified": true,
+      "phone": "+1987654321",
+      "location": "456 Wedding Lane",
+      "service": "Dresses",
+      "workType": "Women",
+      "openingTime": "10:00 AM",
+      "closingTime": "7:00 PM",
+      "userType": "tailor",
+      "createdAt": "2024-03-20T11:00:00Z",
+      "updatedAt": "2024-03-20T11:00:00Z"
+    },
+    {
+      "id": "3",
+      "email": "pweqwqe@gmail",
+      "name": "acdef",
+      "photoUrl": null,
+      "isEmailVerified": false,
+      "userType": "tailor",
+      "createdAt": "2025-05-21T16:27:35.923Z",
+      "updatedAt": "2025-05-21T16:27:35.923Z"
+    },
+    {
+      "id": "4",
+      "email": "abdu@gmail.com",
+      "name": "abdu",
+      "photoUrl": null,
+      "isEmailVerified": false,
+      "password": "abcdefghi",
+      "userType": "tailor",
+      "createdAt": "2025-05-21T16:31:56.146Z",
+      "updatedAt": "2025-05-21T16:31:56.146Z"
+    },
+    {
+      "id": "5",
+      "email": "abdu@gmail.co34234m",
+      "name": "jj",
+      "photoUrl": null,
+      "isEmailVerified": false,
+      "password": "abcdefghi423",
+      "userType": "tailor",
+      "createdAt": "2025-05-21T16:34:12.914Z",
+      "updatedAt": "2025-05-21T16:34:12.914Z"
+    }
+  ],
+  "auth": {
+    "currentUser": null,
+    "tokens": [
+      {
+        "userId": "3",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzIiwiaWF0IjoxNzQ3ODQ0ODU1LCJleHAiOjE3NDc5MzEyNTV9.j0Xw2oRtHEXuVEa0fe20euM9GW8LZZGXJ3iRK-PoM3g"
+      },
+      {
+        "userId": "4",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI0IiwiaWF0IjoxNzQ3ODQ1MTE2LCJleHAiOjE3NDc5MzE1MTZ9.wyjmCKI5iMb5ajrygGztwvt3ZVqBoHKUMkh3Wv7pjF8"
+      },
+      {
+        "userId": "5",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1IiwiaWF0IjoxNzQ3ODQ1MjUyLCJleHAiOjE3NDc5MzE2NTJ9.LGn99CWC2AVYmVZgl8Mt5uCux3U0Dw9fdCGxIHjP0Ig"
+      }
+    ]
+  }
+}
