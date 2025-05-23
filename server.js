@@ -37,8 +37,8 @@ server.post("/auth/login", (req, res) => {
   router.db.set("auth.tokens", tokens).write();
 
   res.json({
-   user:user,
-  token:  token,
+    ...user,
+    token,
   });
 });
 
